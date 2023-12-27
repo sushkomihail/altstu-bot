@@ -2,7 +2,7 @@ import pytesseract
 from PIL import Image
 from settings import *
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 SYMBOLS = '.!@"$#№;:*?&^(){}[]-=+<>,©|'
 
