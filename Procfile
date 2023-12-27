@@ -1,1 +1,1 @@
-worker: python main.py
+altstu_bot: python main.py
