@@ -32,4 +32,5 @@ def get_photos_by_text(file_path: str, text: str) -> list:
 
         if compares_count / len(input_words) >= 0.75:
             result.append(photo)
+            # return result
     return result
