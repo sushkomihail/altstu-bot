@@ -9,7 +9,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(settings.TOKEN, parse_mode=types.ParseMode.HTML, proxy='http://proxy.server:3128')  #
+bot = Bot(settings.TOKEN, parse_mode=types.ParseMode.HTML)  # , proxy='http://proxy.server:3128'
 dp = Dispatcher(bot)
 
 
